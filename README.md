@@ -1,6 +1,6 @@
 # Prediting a salary (focusing on pre-modeling)
 
-According to [[1]](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html),80 percent of a data scientist’s valuable time is spent simply finding, cleaning and reorganizing huge amounts of data. Moreover, the quality of pre-modeling data such as: data preprocessing, feature exploration, feature engineering dirrectly affect to the performance of machine learning model. Therefore, in this project, I want to pay attention to `pre-modeling steps`. 
+According to [[1]](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html),80 percent of a data scientist’s valuable time is spent simply finding, cleaning and reorganizing huge amounts of data. Moreover, the quality of pre-modeling data such as: data preprocessing, feature exploration, feature engineering dirrectly affect to the performance of machine learning model. Therefore, in this project, I want to pay attention to **pre-modeling steps**. 
 
 The data used in this project was extracted from the census [bureau database](http://www.census.gov). The original database came from the [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/Adult) from UCI Machine Learning Repository.
 
