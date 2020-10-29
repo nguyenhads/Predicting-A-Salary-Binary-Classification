@@ -30,3 +30,5 @@ The bussiness problem of this project is to clasify a salary of person. This is 
 [**4. Conlusion**](#part4)
 
 [**References**](#ref)
+
+Please click [here](https://nbviewer.jupyter.org/github/nguyenhads/Predicting-A-Salary-Binary-Classification/blob/main/Predicting-salary-binary-classification-focus-on-preprocessing.ipynb) to view by nbviewer.
