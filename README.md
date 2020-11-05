@@ -1,12 +1,16 @@
-# Prediting a salary (focusing on pre-modeling)
+<a id="part1"></a>
 
-According to [[1]](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html),80 percent of a data scientist’s valuable time is spent simply finding, cleaning and reorganizing huge amounts of data. Moreover, the quality of pre-modeling data such as: data preprocessing, feature exploration, feature engineering dirrectly affect to the performance of machine learning model. Therefore, in this project, I want to pay attention to **pre-modeling steps**. 
+# 1. Introduction - Problem Definition
+
+### **The motivation of this project:**
+According to [[1]](https://www.infoworld.com/article/3228245/the-80-20-data-science-dilemma.html), 80 percent of a data scientist’s valuable time is spent simply finding, cleaning and reorganizing huge amounts of data. Moreover, the quality of pre-modeling data such as: data preprocessing, feature exploration, feature engineering dirrectly affect to the performance of machine learning model. Therefore, in any machine learning project, not only **building machine learning model** is important but also we have to pay proper attention to **processing input data** and **visualizing data to gain the insights** to solve our business problems in proper ways.
+
+### **The business question:**
+This is binary classification problem if an income of a person greater or smaller than a threshold value (50k USD). This problem could be applied to a recommendation system of some online e-commerce sites such as Amazon or Rakuten. If a person's income is below a certain threshold salary, the product suggestion system will adjust suggested products according to her/him salary in the way that he/she are more likely to purchase the product. Another business case of this problem is understanding and segmenting a customer to pay more attention to some specific group of customers in promotional campaigns or introdution of new products.
 
 The data used in this project was extracted from the census [bureau database](http://www.census.gov). The original database came from the [Adult Data Set](https://archive.ics.uci.edu/ml/datasets/Adult) from UCI Machine Learning Repository.
 
-The bussiness problem of this project is to clasify a salary of person. This is binary classification problem if an income of a person greater or smaller than a threshold value (50k USD). This problem could be applied to a recommendation system of some online e-commerce sites such as Amazon or Rakuten. If a person's income is below a certain threshold salary, the product suggestion system will adjust suggested products according to her/him salary in the way that he/she are more likely to purchase the product. Another business case of this problem is understanding and segmenting a customer to pay more attention to some specific group of customers in promotional campaigns or introdution of new products.
-
-**In this project, I will analyze the data carefully to find correlations between an income with other factors, then pre-process the data and build a machine learning model. This is end-to-end binary classification problem.**
+> **In this project, I will analyze the data carefully to find correlations between an income with other factors, then pre-process the data and build a machine learning model. This is end-to-end binary classification problem.**
 
 
 ### Outline of this project
@@ -31,4 +35,4 @@ The bussiness problem of this project is to clasify a salary of person. This is 
 
 [**References**](#ref)
 
-Please click [here](https://nbviewer.jupyter.org/github/nguyenhads/Predicting-A-Salary-Binary-Classification/blob/main/Predicting-salary-binary-classification-focus-on-preprocessing.ipynb) to view by nbviewer.
+Please click [here](https://nbviewer.jupyter.org/github/nguyenhads/Predicting-A-Salary-Binary-Classification/blob/main/Predicting_salary_binary_classification_focus_on_preprocessing.ipynb) to view by nbviewer.
